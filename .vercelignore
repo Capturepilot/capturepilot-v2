@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vercel
+node_modules
+*.dat
+*.csv
+tools/
+architecture/
+backend_venv/
+progress.md
+SAM-Gov-B2G-Agency-Masterguide (1).md
+!dashboard/

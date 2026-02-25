@@ -1,0 +1,6 @@
+.vercel
+.env*.local
+*.csv
+*.dat
+__pycache__/
+node_modules/
