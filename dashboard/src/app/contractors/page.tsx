@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, KeyboardEvent } from "react";
 import { createClient } from "@supabase/supabase-js";
-import { Loader2, Users, Building, ShieldCheck, X, Briefcase, MapPin, Mail, DollarSign, Award, Target, Phone, Link as LinkIcon, Search, ChevronLeft, ChevronRight } from "lucide-react";
+import { Loader2, Users, Building, ShieldCheck, X, Briefcase, MapPin, Mail, DollarSign, Award, Target, Phone, Link as LinkIcon, Search, ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
 import clsx from "clsx";
 
 const supabase = createClient(
