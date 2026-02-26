@@ -32,7 +32,7 @@ export default async function AgencyDashboard() {
       hot_matches_generated: hotCount || 0,
       recent_outcomes_logged: outcomesCount || 0,
     },
-    high_maturity_opportunities: (hotMatches || []).map(match => ({
+    high_maturity_opportunities: ((hotMatches as any[]) || []).map((match: any) => ({
       notice_id: match.opportunities?.notice_id || "UNK",
       agency: match.opportunities?.agency || match.opportunities?.title || "Unknown",
       maturity_score: match.score,

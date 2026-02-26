@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 import { useParams } from "next/navigation";
-import { Loader2, ArrowLeft, Send, Sparkles, Building, Briefcase, FileText } from "lucide-react";
+import { Loader2, ArrowLeft, ArrowRight, Send, Sparkles, Building, Briefcase, FileText } from "lucide-react";
 import Link from "next/link";
 import clsx from "clsx";
 
